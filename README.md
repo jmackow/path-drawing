@@ -2,6 +2,8 @@
 
 A small browser tool for drawing a freehand path, shaping it with Bézier handles, giving it a gradient stroke, and exporting it as a static or animated SVG.
 
+**[Try it in your browser →](https://jmackow.github.io/path-drawing/)**
+
 ## Features
 
 - **Draw** a path by dragging on the canvas. It smooths into an editable curve when you release.
@@ -30,6 +32,8 @@ Then open the local URL Vite prints.
 | `npm run dev`     | Starts the dev server                         |
 | `npm run build`   | Typechecks and builds to `dist/`              |
 | `npm run preview` | Serves the production build locally           |
+
+Every push to `main` deploys the app to GitHub Pages.
 
 ## Built with
 
